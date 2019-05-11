@@ -230,7 +230,7 @@ export default {
   .icon-txt {
     font-size: 1.13rem;
     font-family: PingFangSC-Medium;
-    font-weight: 500;
+    font-weight: 400;
     color: rgba(72, 72, 72, 1);
     line-height: 1.56rem;
   }
