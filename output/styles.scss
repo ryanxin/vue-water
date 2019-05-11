@@ -1,6 +1,6 @@
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -13,17 +13,17 @@ body {
 
 .background {
     width: 100%;
-    height: 731.4288px;
+    height: 52.2449rem;
     position: absolute;
     top: 0;
 }
 
 .ring {
-    width: 402.2864px;
+    width: 28.7347rem;
     position: absolute;
     transform: translate(-50%, 0);
     left: 50%;
-    top: 138.9712px;
+    top: 9.9265rem;
 }
 
 .header-layout {
@@ -39,47 +39,47 @@ body {
     justify-content: space-between;
     align-items: center;
     background: rgba(60, 60, 60, 0.24);
-    height: 98.3776px;
+    height: 7.027rem;
 }
 
 .header-line1 p {
-    font-size: 36.5712px;
+    font-size: 2.6122rem;
     font-family: PingFangSC-Medium;
     color: rgba(255, 255, 255, 1);
-    line-height: 61.0736px;
-    padding: 0 36.5712px 0 36.5712px;
+    line-height: 4.3624rem;
+    padding: 0 2.6122rem 0 2.6122rem;
 }
 
 .icon-sign {
-    width: 51.2px;
+    width: 3.6571rem;
 }
 
 .icon-big {
-    width: 48px;
+    width: 3.4286rem;
 }
 
 .header-layout .left-top {
-    padding: 29.2576px;
+    padding: 2.0898rem;
 }
 
 .right-pannel {
     align-items: center;
-    padding: 12.8px;
-    margin: 18.2864px;
+    padding: 0.9143rem;
+    margin: 1.3062rem;
     right: 0;
     position: absolute;
     background: rgba(25, 25, 25, 0.2);
-    border-radius: 18.2864px;
+    border-radius: 1.3062rem;
 
     .txt {
         color: white;
-        font-size: 23.04px;
+        font-size: 1.6457rem;
         font-family: PingFangSC-Medium;
     }
 
     .icon-small {
-        width: 36.5712px;
-        padding: 25.6px 0 10.9712px 0;
+        width: 2.6122rem;
+        padding: 1.8286rem 0 0.7837rem 0;
     }
 }
 
@@ -103,27 +103,27 @@ body {
     }
 
     .h1 {
-        font-size: 36.8px;
+        font-size: 2.6286rem;
         color: greenyellow;
         font-weight: 600;
-        padding: 10.9712px 0 32.9136px 0;
+        padding: 0.7837rem 0 2.351rem 0;
     }
 
     .h2 {
-        font-size: 58.5136px;
+        font-size: 4.1795rem;
         font-weight: 800;
     }
 
     .h3 {
-        font-size: 34.3776px;
+        font-size: 2.4555rem;
         font-weight: 500;
     }
 
     .h4 {
-        font-size: 29.6224px;
+        font-size: 2.1159rem;
         font-family: PingFangSC-Light;
         font-weight: 300;
-        padding-top: 36.5712px;
+        padding-top: 2.6122rem;
     }
 }
 
@@ -132,39 +132,39 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 87.7712px;
+    margin-top: 6.2694rem;
 
     .icon-bottom {
-        width: 47.9088px;
-        height: 64px;
-        padding: 0 18.2864px 0 0;
+        width: 3.4221rem;
+        height: 4.5714rem;
+        padding: 0 1.3062rem 0 0;
     }
 
     .sp {
-        width: 21.9424px;
+        width: 1.5673rem;
     }
 
     .t1 {
-        font-size: 27.4288px;
+        font-size: 1.9592rem;
         font-family: PingFangSC-Regular;
         font-weight: 400;
         color: rgba(255, 255, 255, 1);
-        line-height: 38.7664px;
+        line-height: 2.769rem;
     }
 
     .t2 {
-        font-size: 36.5712px;
+        font-size: 2.6122rem;
         font-family: PingFangSC-Medium;
         font-weight: 500;
         color: rgba(255, 255, 255, 1);
-        line-height: 50.4688px;
+        line-height: 3.6049rem;
     }
 }
 
 .menu-layout {
     width: 100%;
-    margin-top: 18.2864px;
-    height: calc(100vh - 731.4288px);
+    margin-top: 1.3062rem;
+    height: calc(100vh - 52.2449rem);
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
@@ -175,16 +175,16 @@ body {
     }
 
     .icon-menu {
-        width: 87.7712px;
-        height: 87.7712px;
-        padding-bottom: 36.5712px;
+        width: 6.2694rem;
+        height: 6.2694rem;
+        padding-bottom: 2.6122rem;
     }
 
     .icon-txt {
-        font-size: 41.3264px;
+        font-size: 2.9519rem;
         font-family: PingFangSC-Medium;
         font-weight: 400;
         color: rgba(72, 72, 72, 1);
-        line-height: 57.0512px;
+        line-height: 4.0751rem;
     }
 }
