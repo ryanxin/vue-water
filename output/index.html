@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+
+<html>
+
+<head>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#menu").click(function () {
+                $(".menu-btn").toggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="hello">
+        <img src="./assets/header-bg.jpg" class="background">
+
+        <div class="header-layout">
+            <div class="header-line1">
+                <p>累计净水量 647升</p>
+                <p>已守护时长 75天</p>
+            </div>
+            <div class="vertical-layout right-pannel">
+                <img id="menu" class="icon-big" src="./assets/ic_tool.png">
+                <img class="icon-small menu-btn" hidden src="./assets/ic_shutdown.png">
+                <span class="txt menu-btn" hidden>关机</span>
+                <img class="icon-small menu-btn" hidden src="./assets/ic_ql.png">
+                <span class="txt menu-btn" hidden>强冲</span>
+            </div>
+            <img class="icon-big left-top" src="./assets/ic_xh.png">
+
+            <img class="ring" src="./assets/half-ring.png">
+
+            <div class="header-line2">
+                <span class="h1">正常</span>
+                <span class="h2">7453升</span>
+                <span class="h3">剩余流量</span>
+                <span class="h4">本次净水量1.27升</span>
+            </div>
+
+            <div class="header-line3">
+                <div class="sp"></div>
+                <img class="icon-bottom" src="./assets/ic_ys.png">
+                <div class="vertical-layout">
+                    <span class="t1">原水TDS</span>
+                    <span class="t2">226PPM</span>
+                </div>
+                <div class="grow"></div>
+                <img class="icon-bottom" src="./assets/ic_ys.png">
+                <div class="vertical-layout">
+                    <span class="t1">纯水TDS</span>
+                    <span class="t2">6PPM</span>
+                </div>
+                <div class="sp"></div>
+            </div>
+            <div class="menu-layout">
+                <div class="vertical-layout item-menu">
+                    <img class="icon-menu" src="./assets/ic_sb.png">
+                    <span class="icon-txt">我的设备</span>
+                </div>
+                <div class="vertical-layout item-menu">
+                    <img class="icon-menu" src="./assets/ic_cz.png">
+                    <span class="icon-txt">我要充值</span>
+                </div>
+                <div class="vertical-layout item-menu">
+                    <img class="icon-menu" src="./assets/ic_lx.png">
+                    <span class="icon-txt">我的滤芯</span>
+                </div>
+                <div class="vertical-layout item-menu">
+                    <img class="icon-menu" src="./assets/ic_bx.png">
+                    <span class="icon-txt">我要保修</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
