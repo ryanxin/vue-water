@@ -1,3 +1,4 @@
 module.exports = {
-    assetsDir: "./vue-water/dist/",
+    baseUrl: './',
+    assetsDir: "./static",
 }
